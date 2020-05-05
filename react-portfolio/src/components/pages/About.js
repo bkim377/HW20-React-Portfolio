@@ -1,17 +1,41 @@
 import React from "react";
+// import ProfilePicture from "./components/assets/imgs/BrandonKim.png";
 
 function About() {
   return (
-    <div>
-      <h1>About Page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui
-        mauris, ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus
-        porta. Nam quis arcu non lectus tincidunt fermentum. Suspendisse aliquet orci porta quam
-        semper imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus in. Sed
-        rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
-    </div>
+    <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="card">
+                    <div class = "card-body">
+                        <h2 class="card-title">Brandon Kim</h2>
+                    </div>
+                <div class="row p-3">
+                  <div class="col-sm-8">
+                    <img src={"./components/assets/imgs/BrandonKim.png"} alt="Profile Picture" class="img-thumbnail" />
+                    <h3>About Me</h3>
+                    <p>Graduated from Georgia Tech in December 2019 with a Bachelor of Science in Biomedical Engineering. 
+                        Planning to enroll in graduate school at Georgia Tech's MS-HCI (Masters in Human-Computer Interaction) program in August 2020.
+                        I am a biological science enthusiast who firmly believes that curiosity and communication are the two biggest contributors to societal development and evolution. 
+                        Invested in biomolecular sciences, UI/UX design, and writing.</p>
+                    <p>I am currently enrolled in a professional coding bootcamp at Georgia Tech, where I am working on projects like this very website. </p>
+                    </div>
+                    <div class="col-sm-4">
+                    <h4>My Current Work:</h4>
+                    <img class="social-media" src="assets/imgs/github.png"></img>
+                    <a href="https://github.com/bkim377">GitHub</a>
+                    <p></p>
+                    <img class="social-media" src="assets/imgs/linkedin.png"></img>
+                    <a href="https://www.linkedin.com/in/brandongkim/">LinkedIn</a>
+                    <p></p>
+                    <img class="social-media" src="assets/imgs/resume.png"></img>
+                    <a href="https://drive.google.com/open?id=1al1y7Y_mezcPjcaxnSP56YcNSw9KCOOh">My Resume</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        </div>
   );
 }
 
