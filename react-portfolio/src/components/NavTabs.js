@@ -14,10 +14,10 @@ function NavTabs() {
             <div className="navbar-collapse" id="navbarSupportedContent">
     <ul className="nav navbar-nav nav-flex-icons ml-auto">
       <li className="nav-item">
-        <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>Home</Link>
+        <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>About</Link>
       </li>
       <li className="nav-item">
-        <Link to="/about" className={location.pathname === "/about" ? "nav-link active" : "nav-link"}>About</Link>
+        <Link to="/portfolio" className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>Portfolio</Link>
       </li>
       <li className="nav-item">
         <Link to="/contact" className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}>Contact</Link>
