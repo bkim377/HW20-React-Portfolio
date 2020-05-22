@@ -13,6 +13,15 @@ function Portfolio() {
                     <h2 class="card-title">My Programming Projects</h2>
                 
             <Project 
+                imageSource="assets/imgs/3-MyLibraryNewPortrait.png" 
+                altLabel="VideoStar"
+                header="Group Project Name: VideoStar"
+                description="A group project that lets the user add videos to their library, lend videos to other users, and keep track of and delete their videos in their library."
+                deployedLink="https://video-starr.herokuapp.com/"
+                githubLink="https://github.com/bkim377/video-star"
+                />
+
+            <Project 
                 imageSource="assets/imgs/PokeBattle.png" 
                 altLabel="PokéBattle"
                 header="Group Project Name: PokéBattle"
