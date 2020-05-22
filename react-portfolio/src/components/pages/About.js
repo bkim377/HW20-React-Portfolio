@@ -11,7 +11,7 @@ function About() {
                     </div>
                 <div className="row p-3">
                   <div className="col-sm-8">
-                    <img src = "./assets/imgs/BrandonKim.png" alt="Profile Picture" />
+                    <img src = "./assets/imgs/BrandonKim.png" alt="Profile Pic" />
                     <h3>About Me</h3>
                     <p>Graduated from Georgia Tech in December 2019 with a Bachelor of Science in Biomedical Engineering. 
                         Planning to enroll in graduate school at Georgia Tech's MS-HCI (Masters in Human-Computer Interaction) program in August 2020.
